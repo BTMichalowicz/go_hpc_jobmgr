@@ -16,14 +16,15 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gvallee/go_exec/pkg/advexec"
-	"github.com/gvallee/go_hpc_jobmgr/internal/pkg/network"
-	"github.com/gvallee/go_hpc_jobmgr/internal/pkg/openmpi"
-	"github.com/gvallee/go_hpc_jobmgr/internal/pkg/slurm"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/job"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/mpi"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/sys"
-	"github.com/gvallee/go_util/pkg/util"
+	"github.com/BTMichalowicz/go_exec/pkg/advexec"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/internal/pkg/network"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/internal/pkg/openmpi"
+    "github.com/BTMichalowicz/go_hpc_jobmgr/internal/pkg/mvapich2"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/internal/pkg/slurm"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/job"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/mpi"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/sys"
+	"github.com/BTMichalowicz/go_util/pkg/util"
 )
 
 const (
@@ -272,9 +273,14 @@ func setupMpiJob(j *job.Job, sysCfg *sys.Config) error {
 		return fmt.Errorf("unable to get mpirun arguments: %s", err)
 	}
 
-	scriptText += "\nwhich mpirun\n"
+    if j.MPICfg.Implem.ID == mvapich2.ID {
+        scriptText += "\nwhich mpirun_rsh\n"
+        scriptText += "\nmpirun_rsh "
+    } else {
+        scriptText += "\nwhich mpirun\n"
 
-	scriptText += "\nmpirun "
+        scriptText += "\nmpirun "
+    }
 	if j.NP > 0 {
 		scriptText += fmt.Sprintf("-np %d ", j.NP)
 	}

@@ -15,11 +15,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gvallee/go_hpc_jobmgr/pkg/implem"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/job"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/mpi"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/sys"
-	"github.com/gvallee/go_util/pkg/util"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/implem"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/job"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/mpi"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/sys"
+	"github.com/BTMichalowicz/go_util/pkg/util"
 )
 
 var partition = flag.String("partition", "", "Name of Slurm partition to use to run the test")

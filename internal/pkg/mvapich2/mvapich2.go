@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gvallee/go_exec/pkg/advexec"
-	"github.com/gvallee/go_hpc_jobmgr/internal/pkg/network"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/sys"
-	"github.com/gvallee/go_util/pkg/util"
+	"github.com/BTMichalowicz/go_exec/pkg/advexec"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/internal/pkg/network"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/sys"
+	"github.com/BTMichalowicz/go_util/pkg/util"
 )
 
 const (
@@ -36,7 +36,7 @@ const (
 
 // GetExtraMpirunArgs returns the set of arguments required for the mpirun command for the target platform
 func GetExtraMpirunArgs(sys *sys.Config, netCfg *network.Config, extraArgs []string) []string {
-	extraArgs = append(extraArgs, "-genv")
+	//extraArgs = append(extraArgs, "-genv")
 	extraArgs = append(extraArgs, "MV2_HOMOGENEOUS_CLUSTER=1")
 	extraArgs = append(extraArgs, "MV2_USE_RDMA_CM=0")
 	extraArgs = append(extraArgs, "MV2_CPU_BINDING_POLICY=hybrid")

@@ -8,9 +8,9 @@ package implem
 import (
 	"fmt"
 
-	"github.com/gvallee/go_hpc_jobmgr/internal/pkg/mpich"
-	"github.com/gvallee/go_hpc_jobmgr/internal/pkg/mvapich2"
-	"github.com/gvallee/go_hpc_jobmgr/internal/pkg/openmpi"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/internal/pkg/mpich"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/internal/pkg/mvapich2"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/internal/pkg/openmpi"
 )
 
 const (

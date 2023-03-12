@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gvallee/go_hpc_jobmgr/pkg/jm"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/jm"
 )
 
 func main() {

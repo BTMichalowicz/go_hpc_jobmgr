@@ -11,7 +11,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gvallee/go_hpc_jobmgr/pkg/mpi"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/mpi"
 )
 
 func main() {

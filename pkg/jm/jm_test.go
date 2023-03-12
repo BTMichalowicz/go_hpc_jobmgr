@@ -9,9 +9,9 @@ package jm
 import (
 	"testing"
 
-	"github.com/gvallee/go_hpc_jobmgr/pkg/job"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/sys"
-	"github.com/gvallee/go_util/pkg/util"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/job"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/sys"
+	"github.com/BTMichalowicz/go_util/pkg/util"
 )
 
 func TestDetect(t *testing.T) {

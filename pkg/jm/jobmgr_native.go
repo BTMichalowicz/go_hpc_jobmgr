@@ -11,11 +11,11 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/gvallee/go_exec/pkg/advexec"
-	"github.com/gvallee/go_hpc_jobmgr/internal/pkg/network"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/job"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/mpi"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/sys"
+	"github.com/BTMichalowicz/go_exec/pkg/advexec"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/internal/pkg/network"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/job"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/mpi"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/sys"
 )
 
 // Native is the structure representing the native job manager (i.e., directly use mpirun)

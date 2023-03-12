@@ -9,10 +9,10 @@ package job
 import (
 	"bytes"
 
-	"github.com/gvallee/go_hpc_jobmgr/pkg/app"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/mpi"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/sys"
-	"github.com/gvallee/go_util/pkg/timestamp"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/app"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/mpi"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/sys"
+	"github.com/BTMichalowicz/go_util/pkg/timestamp"
 )
 
 // CleanUpFn is a "function pointer" to call to clean up the system after the completion of a job

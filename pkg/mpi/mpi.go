@@ -12,14 +12,14 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/gvallee/go_exec/pkg/manifest"
-	"github.com/gvallee/go_hpc_jobmgr/internal/pkg/mpich"
-	"github.com/gvallee/go_hpc_jobmgr/internal/pkg/mvapich2"
-	"github.com/gvallee/go_hpc_jobmgr/internal/pkg/network"
-	"github.com/gvallee/go_hpc_jobmgr/internal/pkg/openmpi"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/app"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/implem"
-	"github.com/gvallee/go_hpc_jobmgr/pkg/sys"
+	"github.com/BTMichalowicz/go_exec/pkg/manifest"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/internal/pkg/mpich"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/internal/pkg/mvapich2"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/internal/pkg/network"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/internal/pkg/openmpi"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/app"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/implem"
+	"github.com/BTMichalowicz/go_hpc_jobmgr/pkg/sys"
 )
 
 // Config represents a configuration of MPI for a target platform
