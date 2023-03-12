@@ -1,5 +1,9 @@
-github.com/BTMichalowicz/go_exec v1.1.0 h1:csbr7fNuTNavO4o+3DFl49gDe0Qnb6FGTYOekIl5SyI= 
-github.com/BTMichalowicz/go_exec v1.1.0/go.mod h1:s9fSkVniLYlQUZb99zuioVH45nkvnYxw6vmGEaZCUPk=
-github.com/BTMichalowicz/go_util v1.1.0/go.mod h1:fTexpwdH/n05Ziu0TXJIQsr7E+46QpBxNdeOOsyC0/s=
-github.com/BTMichalowicz/go_util v1.5.0 h1:mZ6jMfuB0z67Y5q0h3cg7qknAa4woKhxOt8aASU/GSA=
-github.com/BTMichalowicz/go_util v1.5.0/go.mod h1:rhmrHriih4is1E3KbQUyn+o8J6wrT6j2pLfAsugaJMY=
+github.com/BTMichalowicz/go_exec main h1:csbr7fNuTNavO4o+3DFl49gDe0Qnb6FGTYOekIl5SyI=
+github.com/BTMichalowicz/go_exec main/go.mod h1:s9fSkVniLYlQUZb99zuioVH45nkvnYxw6vmGEaZCUPk=
+github.com/BTMichalowicz/go_exec v1.1.1-0.20230312200205-487956e5e9a4 h1:fA4qPEC2aSnLRm9zaoBzfFQJDLg1SWSdaggy++gqVXE=
+github.com/BTMichalowicz/go_exec v1.1.1-0.20230312200205-487956e5e9a4/go.mod h1:rPAj1p9Wz/E2oPfFzB7Lcx5PwpxlzCYn6TbkYvRmkoE=
+github.com/BTMichalowicz/go_util master h1:mZ6jMfuB0z67Y5q0h3cg7qknAa4woKhxOt8aASU/GSA=
+github.com/BTMichalowicz/go_util master/go.mod h1:fTexpwdH/n05Ziu0TXJIQsr7E+46QpBxNdeOOsyC0/s=
+github.com/BTMichalowicz/go_util master/go.mod h1:rhmrHriih4is1E3KbQUyn+o8J6wrT6j2pLfAsugaJMY=
+github.com/BTMichalowicz/go_util v1.5.2-0.20230312201026-cdc921844c97 h1:SL1r4R7hg7K+nXNfpPlnXtY6tDJmqV2vNprwB0i3LK8=
+github.com/BTMichalowicz/go_util v1.5.2-0.20230312201026-cdc921844c97/go.mod h1:mghNuows73K0MYMjdL0i5R4hs9ZOJ0iR1b4cBVOgGhU=
